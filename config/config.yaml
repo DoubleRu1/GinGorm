@@ -1,0 +1,9 @@
+myapp:
+  name: LibrarySeatApp
+  port: 8080
+
+
+database:
+  DSN: "root:lzr123456@tcp(127.0.0.1:3306)/mydb?charset=utf8mb4&parseTime=True&loc=Local"
+  MaxIdleConns: 10
+  MaxOpenConns: 40
